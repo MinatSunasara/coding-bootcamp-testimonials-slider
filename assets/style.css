@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		body{
+			font-family: 'Inter', sans-serif;
+			font-size: 32px;
+		}
+		.main{
+			display:;
+		}
+		.sub-main{
+			display:none ;
+		}
+		.section-block1{
+			min-height: 100vh;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 30px;
+			background-image: url("images/pattern-curve.svg");
+			background-repeat: no-repeat;
+			background-position: left bottom;
+			background-size: 25%;
+		}
+		.block1{
+			height: 100%;
+			max-width: 850px;
+			margin: 0 auto;
+			position: relative;
+			width: 100%;
+			display: flex;
+			flex-direction: column-reverse;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		.Tanya-img{
+			width: fit-content;
+			margin: 0 auto;
+			height: 100%;
+			padding: 40px;
+			background-image: url("images/pattern-bg.svg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;;
+		}
+		.block-text-1{
+			padding-top: 30px;
+			display: block;
+			justify-content: center;
+			background-image: url("images/pattern-quotes.svg");
+			background-repeat: no-repeat;
+			background-size: 80px;
+			background-position: top center;
+		}
+		.main-p{
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 16px;
+			color:hsl(240, 38%, 20%);
+		}
+		.sub-p{
+			margin-top: 20px;
+			color:hsl(240, 38%, 20%);
+			font-size: 18px;
+			font-weight: 700;
+		}
+		.sub-p span{
+			color:hsl(240, 18%, 77%);
+			font-weight: 500;
+			display: block;
+		}
+	    .button{
+			position: absolute;
+			left: 63%;
+			height: 45px;
+			width: 90px;
+			top: 346px;
+			box-shadow: -20px 12px 20px 0px hsl(240deg 18% 77% / 52%);
+			border-radius: 50px;
+			background-color: white;
+			overflow: hidden;
+			margin-left: -28px;
+			
+		}
+		.btn{
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: auto;
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+			position:absolute;
+			cursor: pointer;
+		}
+		.next{
+			right: -64px;
+		}
+		.next:hover{
+			/* background-color: red; */
+		}
+		.previous{
+			left: 12px;
+		}		
+		@media only screen and (min-width:768px)
+		{
+			/* Section-1 Css media */
+			.block1{
+				flex-direction: row;
+				text-align: left;
+			}
+			.block-text-1{
+				background-position: 10% top;
+				margin-top: -20%;
+				background-size: 100px;
+				align-items: flex-start;
+			}
+			.block-text-1 .main-p{
+				font-size: 20px;
+				width: 109%;
+				/* margin: fit-content; */
+				margin-left: 78px;
+				line-height: 27px;
+			}
+			.block-text-1 .sub-p{
+				font-size: 13px;
+				display: flex;
+				margin-left: 80px;
+			}
+			.sub-p span{
+				margin-left: 5px;
+			}
+			.Tanya-img{
+				margin-top: -100px;
+				z-index: -1;
+			}
+			.Tanya-img img{
+				width: 400px;
+			}
+			.button{
+				top: 68%;
+				transform: translate(0);
+				left:53%;
+			}
+			.next{
+				right: -64px;
+			}
+			.previous{
+				left: 12px;
+			}
+
+
+			.block2{
+				flex-direction: row;
+				text-align: left;
+			}
+			.block-text-1{
+				background-position: 46% top;
+				background-size: 100px;
+				align-items: flex-start;
+			}
+			.block-text-2 .main-p{
+				font-size: 20px;
+				line-height: 27px;
+			}
+			.block-text-2 .sub-p{
+				font-size: 13px;
+				display: flex;
+			}
+			.block-text-2 span{
+				margin-left: 5px;
+			}
+			.john-img{
+				margin-top: -100px;
+				z-index: -1;
+			}
+			.john-img img{
+				width: 400px;
+			}
+		}
+		 
+		/* Section 2 CSS */
+		.section-block2{
+			min-height: 100vh;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 30px;
+			background-image: url("images/pattern-curve.svg");
+			background-repeat: no-repeat;
+			background-position: left bottom;
+			background-size: 25%;
+		}
+		.block2{
+			height: 100%;
+			max-width: 850px;
+			margin: 0 auto;
+			position: relative;
+			width: 100%;
+			display: flex;
+			flex-direction: column-reverse;
+			justify-content: center;
+			text-align: center;
+		}
+		.john-img{
+			width: fit-content;
+			margin: 0 auto;
+			height: 100%;
+			padding: 40px;
+			background-image: url("images/pattern-bg.svg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;;
+		}
+		.block-text-2{
+			padding-top:30px;
+			display: block;
+			justify-content: center;
+			background-image: url("images/pattern-quotes.svg");
+			background-repeat: no-repeat;
+			background-size: 80px;
+			background-position: top center;
+		}
+		.block-text-2 span{
+			color:hsl(240, 18%, 77%);
+			display: block;
+		}
+		.john-img{
+			width: fit-content;
+			height: 100%;
+			margin:0 auto;
+			padding: 40px;
+			background-image: url("images/pattern-bg.svg");
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+		.TJ-img{
+			height: 100%;
+			width: 300px;
+		}
+		@media only screen and (min-width:768px){
+			.block2{
+				flex-direction: row;
+				text-align: left;
+			}
+			.block-text-2{
+				background-position: 39% top;
+				background-size: 70px;
+				align-items: flex-start;
+			}
+			.block-text-2 .main-p{
+				font-size: 20px;
+				line-height: 27px;
+				width: 109%;
+				margin-left: 60px;
+			}
+			.block-text-2 .sub-p{
+				font-size: 13px;
+				display: flex;
+				margin-left: 60px;
+			}
+			.block-text-2 span{
+				margin-left: 5px;
+			}
+			.john-img{
+				margin-top: -100px;
+				z-index: -1;
+			}
+			.john-img img{
+				width: 400px;
+			}
+		}
